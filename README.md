@@ -61,6 +61,19 @@ Compile GTK-Doc 1.33.0
 ```
 
 
+## Non-vital errors
+```
+checking for xsltproc... /usr/bin/xsltproc
+checking for dblatex... no
+checking for fop... no
+configure: WARNING: neither dblatex nor fop found, so no pdf output from xml
+checking for XML catalog... not found
+checking for xmlcatalog... /usr/bin/xmlcatalog
+checking for DocBook XML DTD V4.3 in XML catalog... not found
+configure: error: could not find DocBook XML DTD V4.3 in XML catalog
+```
+
+
 ## docbook catalog location
 `/Data/Variable/lib/xml/catalog`
 
