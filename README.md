@@ -130,6 +130,8 @@ root@LiveCD ~]cat /Data/Variable/lib/xml/catalog
 ```
 
 # Before PostInstall Script 
+It seems that `file:///GoboLinux/ISO/Output/ROLayer/` is incorrectly produced path by GoboLive 017 CD 
+
 ```
 <?xml version="1.0"?>
 <!DOCTYPE catalog PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN" "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
