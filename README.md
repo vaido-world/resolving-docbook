@@ -72,7 +72,7 @@ checking for xmlcatalog... /usr/bin/xmlcatalog
 checking for DocBook XML DTD V4.3 in XML catalog... not found
 configure: error: could not find DocBook XML DTD V4.3 in XML catalog
 ```
-
+These are probably dependencies that are not available in GoboLinux Remote Recipes Repository
 
 ## docbook catalog location
 `/Data/Variable/lib/xml/catalog`
