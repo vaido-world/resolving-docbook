@@ -130,7 +130,8 @@ root@LiveCD ~]cat /Data/Variable/lib/xml/catalog
 ```
 
 # Before PostInstall Script 
-It seems that `file:///GoboLinux/ISO/Output/ROLayer/` is incorrectly produced path by GoboLive 017 CD 
+It seems that `file:///GoboLinux/ISO/Output/ROLayer/` is incorrectly produced path by GoboLive 017 live CD creation environment 
+And a mistake of variable $GoboVariable being  misused
 
 ```
 <?xml version="1.0"?>
