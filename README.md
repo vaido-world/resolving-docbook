@@ -1,5 +1,12 @@
 # resolving-docbook
 
+```
+sed -i '/delegatePublic/c\' /Data/Variable/lib/xml/catalog  
+sed -i '/delegateSystem/c\' /Data/Variable/lib/xml/catalog  
+sed -i '/delegateURI/c\' /Data/Variable/lib/xml/catalog  
+bash  /Programs/DocBook-XML-DTD/4.5/Resources/PostInstall
+```
+
 ## docbook catalog location
 `/Data/Variable/lib/xml/catalog`
 
