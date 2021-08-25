@@ -1,11 +1,16 @@
 # resolving-docbook
 
+
+Test: `Compile GTK-Doc 1.33.0`
+
 ```
 sed -i '/delegatePublic/c\' /Data/Variable/lib/xml/catalog  
 sed -i '/delegateSystem/c\' /Data/Variable/lib/xml/catalog  
 sed -i '/delegateURI/c\' /Data/Variable/lib/xml/catalog  
 bash  /Programs/DocBook-XML-DTD/4.5/Resources/PostInstall
 ```
+
+Test: `Compile GTK-Doc 1.33.0`
 
 ## docbook catalog location
 `/Data/Variable/lib/xml/catalog`
