@@ -40,6 +40,27 @@ bash  /Programs/DocBook-XML-DTD/4.5/Resources/PostInstall
 
 Test: `Compile GTK-Doc 1.33.0`
 
+## The Error
+```
+make[1]: Leaving directory '/Data/Compile/Sources/gtk-doc-1.33.0/tests'
+make[1]: Entering directory '/Data/Compile/Sources/gtk-doc-1.33.0'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/Data/Compile/Sources/gtk-doc-1.33.0'
+git.mk: Generating .gitignore
+Compile: Asserting that requirements are met...
+SandboxInstall: unionfs is unavailable. Cannot proceed with the installation.
+Compile: GTK-Doc 1.33.0 - Installation step failed.
+
+```
+
+## The solution 
+```
+InstallPackage https://gobolinux.org/packages/017/Fuse--2.9.7--x86_64.tar.bz2
+InstallPackage https://gobolinux.org/packages/017/UnionFS-Fuse--2.1--x86_64.tar.bz2
+Compile GTK-Doc 1.33.0
+```
+
+
 ## docbook catalog location
 `/Data/Variable/lib/xml/catalog`
 
