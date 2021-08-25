@@ -1,5 +1,7 @@
 # resolving-docbook
 
+## docbook catalog location
+`/Data/Variable/lib/xml/catalog`
 
 
 
